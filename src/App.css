@@ -1,38 +1,81 @@
-.App {
+#root {
+  background-color: cadetblue;
+  height: 100vh;
+}
+
+/* #main-container {
+  padding-right: 0px;
+  padding-left: 0px;
+} */
+
+.navbar {
+  margin-left: -5px;
+  
+}
+
+#ninaKoller {
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  color: floralwhite;
+}
+
+#subHeading {
+  text-align: center;
+  padding: 2%;
+  font-size: medium;
+  font-style: italic;
+  color: floralwhite;
+}
+
+#profilePic {
+  border-style: solid;
+  border-color: floralwhite;
+}
+
+.bio-text {
+  margin-top: 50px;
+}
+
+.profile-links {
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
 }
+.profile-links a {
+  color: lightcyan;
+  font-size: large;
+}
+/* Portfolio Page */
+/* .portfolio-container {
+  margin-left: 15px;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.live-app {
+  margin-right: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-row {
+  padding-bottom: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.page-heading {
+  color: floralwhite;
 }
 
-.App-link {
-  color: #61dafb;
+.portfolio-col-img {
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
 }
